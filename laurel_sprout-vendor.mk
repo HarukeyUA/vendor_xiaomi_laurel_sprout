@@ -41,10 +41,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/framework/com.qti.dpmframework.jar:system/product/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/laurel_sprout/proprietary/framework/dpmapi.jar:system/product/framework/dpmapi.jar \
     vendor/xiaomi/laurel_sprout/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/laurel_sprout/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
-    vendor/xiaomi/laurel_sprout/proprietary/lib64/soundfx/libvolumelistener.so:system/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/product/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/product/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/product/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -85,7 +83,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/product/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/product/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/product/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/xiaomi/laurel_sprout/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+    vendor/xiaomi/laurel_sprout/proprietary/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:system/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/28/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/laurel_sprout/proprietary/product/vendor_overlay/28/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/28/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
